@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Libreria Multimedia</string>
+    <string name="hola_mundo">Hola Mundo!</string>
+    <string name="usuario_text_view">Usuario</string>
+    <string name="contrasena_text_vew">Contraseña</string>
+    <string name="cancelar_button_text">Cancelar</string>
+    <string name="acceder_button_text">Acceder</string>
+    <string name="universidad_de_alicante">Universidad de Alicante</string>
+    <string name="about_text_view">La Universidad de Alicante fue creada en octubre de 1979 sobre la estructura del Centro de Estudios Universitarios (CEU), que había comenzado a funcionar en 1968. Alicante recuperaba, de esta manera, los estudios universitarios suspendidos en 1834.</string>
+    <string name="principal_page">Principal Page</string>
+    <string name="login_activity">login actividad</string>
+    <string name="acerca_button_text">Acerca</string>
+</resources>

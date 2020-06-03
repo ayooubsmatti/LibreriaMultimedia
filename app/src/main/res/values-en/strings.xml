@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multimedia Library</string>
+    <string name="hola_mundo">Hello World!</string>
+    <string name="usuario_text_view">Username</string>
+    <string name="contrasena_text_vew">Password</string>
+    <string name="cancelar_button_text">Cancel</string>
+    <string name="acceder_button_text">Access</string>
+    <string name="universidad_de_alicante">University of Alicante</string>
+    <string name="about_text_view">The University of Alicante was created in October 1979 on the structure of the University Study Centre (CEU), which was started in 1968. Thus, Alicante recovered in this way its university studies centre that was suspended in 1834.</string>
+    <string name="principal_page">Principal Page</string>
+    <string name="login_activity">Login Activity</string>
+    <string name="acerca_button_text">Acerca</string>
+</resources>
