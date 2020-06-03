@@ -10,4 +10,9 @@
     <string name="principal_page">Principal Page</string>
     <string name="login_activity">login actividad</string>
     <string name="acerca_button_text">Acerca</string>
+
+    <string-array name="sex_array">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
 </resources>
