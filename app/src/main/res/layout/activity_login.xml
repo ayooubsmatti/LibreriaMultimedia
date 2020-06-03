@@ -5,10 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_shape"
     android:padding="16dp"
     android:orientation="vertical"
     tools:context=".LoginActivity">
-
+<LinearLayout
+    android:background="@drawable/linearlayout_shape"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,27 +49,45 @@
             android:inputType="textPassword" />
 
     </LinearLayout>
-
+</LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="9"
         android:layout_marginTop="20dp"
         android:orientation="horizontal">
         <Button
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="45dp"
             android:id="@+id/cancelar_button"
             android:text="@string/cancelar_button_text"
+            android:background="@drawable/statlist_selector_button"
+            android:layout_marginRight="8dp"
             android:layout_weight="1"/>
 
         <Button
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="45dp"
             android:id="@+id/acceder_button"
             android:text="@string/acceder_button_text"
+            android:background="@drawable/statlist_selector_button"
             android:layout_weight="1"
              />
 
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|center">
+
+        <TextView
+            android:id="@+id/registrar_text_intent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Si no Tiene Cuenta, Regístrese" />
     </LinearLayout>
 
 
