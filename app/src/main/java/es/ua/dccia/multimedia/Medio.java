@@ -7,10 +7,37 @@ public class Medio {
     private String autor;
     private String url;
     private int mImagenResourceId;
-    public Medio(String titulo, String autor ,int imageResourceId) {
+    // audio resource ID
+    private int mAudioResourceId;
+    private int mVideoResourceId;
+
+    public void setmAudioResourceId(int mAudioResourceId) {
+        this.mAudioResourceId = mAudioResourceId;
+    }
+
+    public int getmVideoResourceId() {
+        return mVideoResourceId;
+    }
+
+    public void setmVideoResourceId(int mVideoResourceId) {
+        this.mVideoResourceId = mVideoResourceId;
+    }
+
+    public Medio(String titulo, String autor , int imageResourceId) {
         this.titulo = titulo;
         this.autor = autor;
         this.mImagenResourceId = imageResourceId;
+    }
+
+    public Medio(String titulo, String autor, int mImagenResourceId, int mAudioResourceId) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.mImagenResourceId = mImagenResourceId;
+        this.mAudioResourceId = mAudioResourceId;
+    }
+
+    public int getmAudioResourceId() {
+        return mAudioResourceId;
     }
 
     public String getTitulo() {

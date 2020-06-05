@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/logo_xhdpi"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegistroActivity"></activity>
+        <activity android:name=".ReproductorActivity"></activity>
+        <activity android:name=".RegistroActivity" />
         <activity android:name=".AboutActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".PrincipalActivity">
