@@ -18,9 +18,6 @@ public class ReproductorActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reproductor);
 
-
-
-
         TextView tvTitulo = (TextView)findViewById(R.id.titulo_text_reproducer);
         tvTitulo.setText(getIntent().getStringExtra(EXTRA_TITULO));
         TextView tvAutor = (TextView)findViewById(R.id.autor_text_reproducer);
