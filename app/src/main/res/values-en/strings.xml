@@ -11,4 +11,13 @@
     <string name="principal_page">Principal Page</string>
     <string name="login_activity">Login Activity</string>
     <string name="acerca_button_text">Acerca</string>
+    <string name="titulo">Title</string>
+    <string name="autor">" Author"</string>
+    <string name="nombre">Name</string>
+    <string name="apellidos">Prename</string>
+    <string name="sexo">Sexe</string>
+    <string name="fecha_de_nac">Date of Birth</string>
+    <string name="imagen">Image</string>
+    <string name="rep_contrase_a">Rep Password</string>
+    <string name="registrar">Register</string>
 </resources>

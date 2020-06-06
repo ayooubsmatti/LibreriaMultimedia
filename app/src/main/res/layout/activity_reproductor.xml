@@ -32,7 +32,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Título"
+            android:text="@string/titulo"
             android:textSize="20sp" />
 
         <TextView
@@ -41,7 +41,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Autor"
+            android:text="@string/autor"
             android:textSize="16sp" />
 
 

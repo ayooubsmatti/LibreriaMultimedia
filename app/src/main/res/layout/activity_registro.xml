@@ -29,7 +29,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Nombre"
+                android:text="@string/nombre"
                 android:layout_weight="1"/>
 
             <EditText
@@ -47,7 +47,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Apellidos"
+                android:text="@string/apellidos"
                 android:layout_weight="1"/>
 
             <EditText
@@ -65,7 +65,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Sexo"
+                android:text="@string/sexo"
                 android:layout_weight="1"/>
 
             <Spinner
@@ -84,7 +84,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Fecha de Nac"
+                android:text="@string/fecha_de_nac"
                 android:layout_weight="1"/>
 
             <EditText
@@ -102,7 +102,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Imagen"
+                android:text="@string/imagen"
                 android:layout_weight="1"/>
 
             <LinearLayout
@@ -162,7 +162,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Rep Contraseña"
+                android:text="@string/rep_contrase_a"
                 android:layout_weight="1"/>
 
             <EditText
@@ -200,7 +200,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/statlist_selector_button"
             android:layout_weight="1"
-            android:text="Registrar" />
+            android:text="@string/registrar" />
 
     </LinearLayout>
 

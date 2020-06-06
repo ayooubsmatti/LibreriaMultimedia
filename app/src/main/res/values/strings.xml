@@ -10,6 +10,15 @@
     <string name="principal_page">Principal Page</string>
     <string name="login_activity">login actividad</string>
     <string name="acerca_button_text">Acerca</string>
+    <string name="titulo">Título</string>
+    <string name="autor">Autor</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="sexo">Sexo</string>
+    <string name="fecha_de_nac">Fecha de Nac</string>
+    <string name="imagen">Imagen</string>
+    <string name="rep_contrase_a">Rep Contraseña</string>
+    <string name="registrar">Registrar</string>
 
     <string-array name="sex_array">
         <item>Masculino</item>
