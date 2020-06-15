@@ -23,6 +23,7 @@ public class ReproductorActivity extends AppCompatActivity {
         TextView tvAutor = (TextView)findViewById(R.id.autor_text_reproducer);
         tvAutor.setText(getIntent().getStringExtra(EXTRA_AUTOR));
         String titulo = (String) tvTitulo.getText();
+
         VideoView videoView = (VideoView) findViewById(R.id.video_view);
         int videoUrlId = 0;
         if (titulo.equals("Nebraska")){

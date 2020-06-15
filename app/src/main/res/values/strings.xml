@@ -19,7 +19,6 @@
     <string name="imagen">Imagen</string>
     <string name="rep_contrase_a">Rep Contraseña</string>
     <string name="registrar">Registrar</string>
-
     <string-array name="sex_array">
         <item>Masculino</item>
         <item>Femenino</item>
